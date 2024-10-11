@@ -1,11 +1,11 @@
 import React from 'react'
 
-function SearchBar() {
+function Grammer() {
   return (
     <div>
-      
+      Grammer
     </div>
   )
 }
 
-export default SearchBar
+export default Grammer

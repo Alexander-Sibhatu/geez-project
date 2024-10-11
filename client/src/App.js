@@ -1,7 +1,8 @@
-
+import React from 'react'
+import Routering from './Routering'
 const App = () => {
   return (
-    <div>App</div>
+    <div><Routering/></div>
   )
 }
 

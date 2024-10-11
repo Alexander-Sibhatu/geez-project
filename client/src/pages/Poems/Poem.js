@@ -1,11 +1,11 @@
 import React from 'react'
 
-function SearchBar() {
+function Poem() {
   return (
     <div>
-      
+      Poem
     </div>
   )
 }
 
-export default SearchBar
+export default Poem
