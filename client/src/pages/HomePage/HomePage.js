@@ -1,5 +1,4 @@
 import React from 'react'
-import SearchBar from '../../components/SearchBar/SearchBar'
 import './homepage.css'
 import { Link } from 'react-router-dom'
 
@@ -15,5 +14,4 @@ const HomePage = () => {
     </div>
   )
 }
-
 export default HomePage
