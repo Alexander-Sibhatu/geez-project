@@ -88,7 +88,7 @@ input::placeholder{
   align-items: center;
   margin-top: 20px;
 }
-.buttons button{
+/* .buttons button{
  width:250px;  
  margin-bottom: 10px;
  background-color: #5C4033;
@@ -99,4 +99,26 @@ input::placeholder{
 .buttons button:hover{
   cursor: pointer;
   box-shadow:#5C4033 0px 0px 10px;
+} */
+.buttons button {
+  width: 250px;  
+  margin-bottom: 10px;
+  background-color: #5C4033;
+  border: none;
+  border-radius: 5px;
+  padding: 10px; 
+  color: #F4E1C1; 
+  font-size: 18px; 
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px #5C4033; 
+  background-color: #754A4A; 
+  transform: scale(1.05); 
+}
+
+.buttons button:active {
+  transform: scale(0.95); 
 }
