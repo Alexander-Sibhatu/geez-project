@@ -18,7 +18,7 @@ const HomePage = () => {
       </div>
       <div className={classes.buttons}>
         <button>
-          <Link to="">ግሥ</Link>
+          <Link to="verbs">ግሥ</Link>
         </button>
 
         <button>
