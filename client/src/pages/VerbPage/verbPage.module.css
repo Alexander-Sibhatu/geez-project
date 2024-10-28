@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+.verb {
+    color: black;
+    margin: 3rem;
+}

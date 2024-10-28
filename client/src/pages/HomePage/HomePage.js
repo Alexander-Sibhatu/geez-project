@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./homepage.module.css";
 import { Link } from "react-router-dom";
-import angle_icon from '../../assets/angle_icon.svg'
-import search_icon from '../../assets/search_icon.svg'
+import angle_icon from "../../assets/angle_icon.svg";
+import search_icon from "../../assets/search_icon.svg";
 
 const HomePage = () => {
   return (
@@ -13,12 +13,12 @@ const HomePage = () => {
         <img src={angle_icon} alt="" className={classes.rightIcon} />
       </div>
       <div className={classes.SearchBar}>
-        <input type="text" placeholder="ፈልግ" className={classes.searchBar}/>
-        <img src={search_icon} alt="" className={classes.searchIcon}/>
+        <input type="text" placeholder="ፈልግ" className={classes.searchBar} />
+        <img src={search_icon} alt="" className={classes.searchIcon} />
       </div>
       <div className={classes.buttons}>
         <button>
-          <Link to="/gis">ግሥ</Link>
+          <Link to="verbs">ግሥ</Link>
         </button>
 
         <button>
