@@ -1,6 +1,8 @@
 // Let's define the useFetch function here
 // Dummy data is given below. Pretend that this is the data that will be fetched from the url
 
+// import axios from 'axios';
+
 const dummyData = [
     {
         "Gis": "ሰላም",
@@ -51,3 +53,14 @@ const dummyData = [
         "notes": "Found in spiritual texts"
       },
 ]
+
+export const fetchVberbs = async () => {
+  try {
+    const fetchVerbs = dummyData
+    return fetchVerbs
+
+  } catch (error) {
+    console.log(error.message)
+  }
+}
+
