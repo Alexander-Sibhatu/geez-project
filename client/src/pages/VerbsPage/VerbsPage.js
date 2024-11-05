@@ -8,21 +8,26 @@ const VerbPage = () => {
 
   const fetchData = async () => {
     const data = await fetchVberbs();
+    console.log(data)
     setVerbs(data);
   }
 
   useEffect(() => {
     fetchData();
-  })
+  }, [])
 
-  const verb = verbs.map((verb, index) => (
+
+  const verbElements = verbs && verbs.length > 0 ? (
+    verbs.map((verb, index) => (
     <div key={index} className={classes.verb}>
       <p><strong>Gis: </strong> {verb.Gis}</p>
     </div>
   ))
-
+) : (
+  <p>Loading... </p>
+)
   return (
-    <div>{verb}</div>
+    <div>{verbElements}</div>
   )
 }
 
