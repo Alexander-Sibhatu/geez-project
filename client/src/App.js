@@ -1,8 +1,8 @@
 import React from 'react'
-import Routering from './Routering'
+import Routering from './Route/Routering'
 const App = () => {
   return (
-    <div><Routering/></div>
+    <div ><Routering/></div>
   )
 }
 
