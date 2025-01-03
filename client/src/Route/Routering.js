@@ -5,7 +5,7 @@ import CategoryPage from '../pages/CategoryPage/CategoryPage'
 import Grammer from '../pages/Grammer/Grammer'
 import Poems from '../pages/Poems/Poem'
 import Noun from '../pages/Noun/Noun'
-import VerbPage from '../pages/VerbPage/VerbPage'
+import Verbs from '../pages/Verbs/Verbs'
 function Routering() {
   return (
     <Router>
@@ -15,7 +15,7 @@ function Routering() {
         <Route path='/grammer' element={<Grammer/>}/>
         <Route path='/noun' element={<Noun/>}/>
         <Route path='/poem' element={<Poems/>}/>
-        <Route path='/verbs' element={<VerbPage />} />
+        <Route path='/verbs' element={<Verbs />} />
       </Routes>
     </Router>
   );
