@@ -53,6 +53,10 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware'
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+]
+
 ROOT_URLCONF = 'geez_server.urls'
 
 TEMPLATES = [
@@ -121,7 +125,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'staticfiles'),]
+STATICFILES_DIRS = []
 
 # Media files (for user-uploaded files like audio pronunciation)
 MEDIA_URL = '/media/'                # Base URL for media files
