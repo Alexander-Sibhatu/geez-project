@@ -34,4 +34,4 @@ class Gis(models.Model):
 
 
     def __str__(self):
-        return self.Gis
+        return self.ግስ
