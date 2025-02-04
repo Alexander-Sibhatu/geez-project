@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Layout from "../../components/Layout/Layout";
 const CategoryPage = () => {
   return (
-    <div>CategoryPage</div>
+    <Layout>CategoryPage</Layout>
   )
 }
 

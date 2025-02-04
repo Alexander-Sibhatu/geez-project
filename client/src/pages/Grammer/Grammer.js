@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Layout from "../../components/Layout/Layout";
 function Grammer() {
   return (
-    <div>
+    <Layout>
       Grammer
-    </div>
+    </Layout>
   )
 }
 
